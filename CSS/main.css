@@ -1,0 +1,250 @@
+/*rest css*/
+@charset "UTF-8";  
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{ margin: 0; padding: 0; }
+fieldset,img{ border: 0; }
+:focus{ outline: 0; }
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{ font-style: normal; font-weight: normal; }
+h1,h2,h3,h4,h5,h6{ font-size: 100%; font-weight: normal; font-family: "Microsoft YaHei"; }
+abbr,acronym{ border: 0; font-variant: normal; }
+code,kbd,samp,tt{ font-size: 100%; }
+input,button,textarea,select{ *font-size: 100%; border:none;}
+body{ background:#fff; color:#5e5e5e; font: 14px/2em Microsoft YaHei,SimSun,Arial;}
+ol,ul{ list-style: none; }
+table{ border-collapse: collapse; border-spacing: 0; }
+caption,th{ text-align: left; }
+sup,sub{ font-size: 100%; vertical-align: baseline; }
+:link, :visited, ins{ text-decoration: none; }
+blockquote,q{ quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after{ content: ''; content: none; }
+a:link, a:visited{ color: #5e5e5e;}
+a:hover { color:#c9394a;}
+a:active { color: #666;}
+.clearfix:after{content:'\0020';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+.l{float:left;}
+.r{float:right;}
+.clear{ height:0; overflow:hidden; clear:both}
+
+/*my codes*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+.clear{
+	clear: both;
+}
+/*导航栏*/
+.nav{
+	height: 52px;
+	width: 100%;
+	line-height: 30px;
+	font-size: 15px;
+	color: #F4F4EC;
+	background: #04536C;
+	position: fixed;
+	z-index: 1;
+}
+#nav-name{
+	color: #F4F4EC;
+	margin-top: 10px;
+	margin-left: 100px;
+	display: inline-block;
+	float: left;
+}
+.nav-more{
+	margin-top: 10px;
+	margin-right: 100px;
+	float: right;
+}
+.nav-more a{
+	color: #F4F4EC;
+	margin-left: 20px;
+	position: relative;
+}
+/*头图*/
+.first-page{
+	background-color: #FF5200;
+	width: 100%;
+	height: 662px;
+}
+.head-word{
+	color: #003355;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	line-height: 600px;
+	position: absolute;
+	margin: 0 auto;
+	width: 100%;
+}
+.first-page a{
+	position: absolute;
+	margin-top: 550px;
+	margin-left: 80px;
+	font-size: 30px;
+	color: #003355;
+}
+/*主要内容*/
+.main{
+	width: 100%;
+	height: 662px;
+	background: #638CCC;
+	font-size: 20px;
+	font-weight: bold;
+	color: #E8F1F5;
+}
+.main p{
+	font-size: 50px;
+	padding-top: 100px;
+	padding-left: 560px;
+}
+.main-in{
+	margin-left: 150px;
+	margin-top: 200px;
+	float: left;
+}
+.main-moin{
+	margin-top: 200px;
+	margin-right: 150px;
+	float: right;
+}
+/*专业技能*/
+.skills-title{
+	width: 100%;
+	height: 610px;
+	background: #40514E;
+	margin: 0 auto;
+	padding-top: 100px;
+	text-align: center;
+}
+.skills-word{
+	color: #F3F6F6;
+	font-size: 50px;
+}
+.skills-main{
+	width: 100%;
+	height: 500px;
+	color: #F3F6F6;
+}
+.skills-lang{
+	display: inline-block;
+    height: auto;
+    width: 210px;
+    margin: 200px 0 0 56px;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    font-family: "Microsoft YaHei light";
+    text-align: center;
+    vertical-align: top;
+}
+.skills-idea{
+	display: inline-block;
+    height: auto;
+    width: 210px;
+    margin: 200px 0 0 56px;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    font-family: "Microsoft YaHei light";
+    text-align: center;
+    vertical-align: top;
+}
+.skills-frame{
+	display: inline-block;
+    height: auto;
+    width: 210px;
+    margin: 200px 0 0 56px;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    font-family: "Microsoft YaHei light";
+    text-align: center;
+    vertical-align: top;
+}
+.skills-tech{
+	display: inline-block;
+    height: auto;
+    width: 210px;
+    margin: 200px 0 0 56px;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    font-family: "Microsoft YaHei light";
+    text-align: center;
+    vertical-align: top;
+}
+.skills-first{
+	background-color: #F3F6F6;
+	color: black;
+}
+/*项目经验*/
+.pro-main{
+	width: 100%;
+	height: 662px;
+	color: #E7F0D2;
+	background: #11999E;
+}
+.pro-main h1{
+	padding-top: 100px;
+	padding-left: 560px;
+	font-size: 50px;
+}
+.pro-left{
+	font-size: 15px;
+	margin-top: 100px;
+	margin-left: 150px;
+	width: 150px;
+	height: 200px;
+	float: left;
+}
+.pro-right{
+	font-size: 15px;
+	margin-top: 100px;
+	margin-left: 150px;
+	width: 150px;
+	height: 200px;
+	float: left;
+}
+/*页脚*/
+.footer{
+	width: 100%;
+	height: 662px;
+	color: #E7F0D2;
+	background: #83B271;
+}
+.footer-call{
+	font-size: 50px;
+	padding-top: 100px;
+	margin-left: 45%;
+}
+.footer p{
+	float: left;
+	margin-top: 145px;
+	margin-left: 160px;
+	font-size: 25px;
+	line-height: 100px;
+}
+#wechat{
+	width: 10%;
+	height: 20%;
+	float: left;
+	margin-top: 250px;
+	margin-left: -150px;
+	position: relative;
+}
+#QQ{
+	width: 8.5%;
+	height: 20%;
+	float: left;
+	margin-top: 250px;
+	margin-left: -150px;
+	position: relative;
+}
+
+#Email{
+	width: 10%;
+	height: 20%;
+	float: left;
+	margin-top: 250px;
+	margin-left: -250px;
+	position: relative;
+}
