@@ -69,7 +69,7 @@ a {
 }
 
 @media only screen and (max-width: 30em){
-	.nav{ height: 6rem; } #nav-name{ margin-left: 40%; } .nav-more a{ text-align: center; }
+	.nav{ height: 6rem; } #nav-name{ float: left; margin-left: 2.4rem; } .nav-more a{ float: left; margin-top: 0; margin-left: 1rem; font-size: 0.5rem; text-align: center; }
 }
 /*头图*/
 .first-page{
@@ -104,7 +104,7 @@ a {
 }
 
 @media only screen and (max-width: 30em){
-	.first-page{ height: 30rem; } .head-word{ font-size: 3.5rem; margin-top: -5rem;} .first-page a{ text-align: center; font-size: 1.7rem; margin-top: 20rem; }
+	.first-page{ height: 30rem; } .head-word{ font-size: 3.5rem; margin-top: -5rem;} .first-page a{ font-size:1.2rem; text-align: center; margin-top: 20rem; }
 }
 /*个人简介*/
 .main{
@@ -142,7 +142,7 @@ a {
 }
 
 @media only screen and (max-width: 30em){
-	.main-in{ margin-top: 5rem; margin-left: 8rem; padding-left: 1rem; padding-right: 1rem; border: 0.1rem solid #FFFFFF; font-size: 1rem; } .main-moin{ margin-top:5rem; margin-bottom: 3rem; margin-left: 1rem; padding-left:1rem; border: 0.1rem solid #FFFFFF; font-size: 1rem; }
+	.main-in{ margin-top: 5rem; margin-left: 6rem; padding-left: 1rem; padding-right: 1rem; border: 0.1rem solid #FFFFFF; font-size: 1rem; } .main-moin{ margin-top:5rem; margin-bottom: 8rem; margin-left: 1.8rem; padding: 1rem; border: 0.1rem solid #FFFFFF; font-size: 0.5rem; }
 }
 /*专业技能*/
 .skills-title{
@@ -191,7 +191,7 @@ a {
 }
 
 @media only screen and (max-width: 30em){
-	.skills-word{ margin-bottom: 3rem; } .skills-lang, .skills-idea, .skills-frame, .skills-tech { margin-bottom: 3rem; margin-left: 1rem; margin-top: 0;}
+	.skills-title{ height: auto; margin-top: -3.2rem; } .skills-word{ margin-bottom: 3rem; } .skills-lang, .skills-idea, .skills-frame, .skills-tech { width: 9rem; margin-bottom: 3rem; margin-left: 0.5rem; margin-top: 0;}
 }
 /*项目经验*/
 .pro-main{
@@ -226,7 +226,7 @@ a {
 }
 
 @media only screen and (max-width: 30em){
-	.pro-left, .pro-right{ margin-left: 2.1rem; margin-top: 1rem; padding-left: 0.5rem; padding-right: 0.5rem; border: 0.1rem solid #FFFFFF; }
+	.pro-left, .pro-right{ float: left; width: 10rem; margin-left: 1rem; margin-right: 2%; margin-top: 1rem; padding-left: 0.5rem; padding-right: 0.5rem; border: 0.1rem solid #FFFFFF; }
 }
 
 
@@ -276,6 +276,6 @@ a {
 }
 
 @media only screen and (max-width: 30em){
-	.footer p{ font-size: 0.5rem; margin-left: 1rem; margin-top: 1rem; padding-left: 0.5rem; padding-right: 0.5rem; }
+	.footer p{ font-size: 0.5rem; margin-left: 0.1rem; margin-top: 1rem; padding-left: 0.5rem; padding-right: 0.5rem; }
 	#wechat, #QQ{ margin-top: 8rem; margin-left: -4.5rem; } #Email{ margin-top: 8rem; margin-left: -7.5rem; }
 }
