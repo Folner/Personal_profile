@@ -98,7 +98,7 @@ a {
 /*个人简介*/
 .main{
 	width: 100%;
-	height: auto;
+	height: 50rem;
 	background: #638CCC;
 	font-size: 1.3rem;
 	line-height: 2rem;
@@ -111,8 +111,9 @@ a {
 	text-align: center;
 }
 .main-in, .main-moin{
-	margin-left: 10rem;
-	margin-top: 10rem;
+	width: 15rem;
+	margin-left: 15rem;
+	margin-top: 6rem;
 	padding: 0 0.5rem 0 0.5rem;
 	float: left;
 	border: 0.1rem solid #FFFFFF;
@@ -124,7 +125,7 @@ a {
 }
 
 @media only screen and (min-width: 30.0625em) and (max-width: 50em){
-	.main{ height: auto; } .main-in, .main-moin{ font-size: 0.3rem; margin-top: 5rem; margin-left: 12rem; padding:0 1rem 0 1rem; border: 0.1rem solid #FFFFFF; } .main-moin{ float: left; width: 10rem; margin-left: 2rem; margin-top: 5rem; }
+	.main{ height: auto; } .main-in, .main-moin{ width: 10rem; font-size: 0.3rem; margin-top: 5rem; margin-left: 10rem; padding:0 1rem 0 1rem; border: 0.1rem solid #FFFFFF; } .main-moin{ float: left; width: 10rem; margin-left: 5rem; margin-top: 5rem; }
 }
 
 @media only screen and (max-width: 30em){
@@ -177,7 +178,7 @@ a {
 }
 
 @media only screen and (max-width: 30em){
-	.skills-title{ height: 32rem; margin-top: -4.3rem; } .skills-word{ margin-bottom: 3rem; } .skills-lang, .skills-idea, .skills-frame, .skills-tech { font-size: 1rem; width: 5rem; margin-left: 0.5rem; margin-top: 0; line-height: 0.5rem; }
+	.skills-title{ height: 32rem; margin-top: -4.2rem; } .skills-word{ margin-bottom: 3rem; } .skills-lang, .skills-idea, .skills-frame, .skills-tech { font-size: 0.3rem; width: 5rem; margin-left: 0.5rem; margin-top: 1rem; }
 }
 /*项目经验*/
 .pro-main{
@@ -233,17 +234,17 @@ a {
 .footer p{
 	float: left;
 	margin-top: 6rem;
-	margin-left: 10rem;
+	margin-left: 20rem;
 	font-size: 25px;
 	line-height: 10rem;
 }
-#wechat, #QQ, #Email{
+#wechat, #QQ {
 	width: 10%;
 	height: 20%;
 	float: left;
 	margin-top: 15rem;
 	margin-left: -10rem;
-	margin-bottom: 5rem;
+	margin-bottom: 10rem;
 	position: relative;
 }
 #QQ{
