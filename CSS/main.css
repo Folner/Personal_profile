@@ -124,7 +124,7 @@ a {
 }
 
 @media only screen and (min-width: 30.0625em) and (max-width: 50em){
-	.main{ height: 32rem; }.main-in{ margin-top: 5rem; margin-left: 3rem; padding-left: 1rem; padding-right: 1rem; border: 0.1rem solid #FFFFFF; font-size: 1rem; } .main-moin{ margin-left: 1rem; margin-top: 5rem; padding-left:1rem; border: 0.1rem solid #FFFFFF; font-size: 1rem; }
+	.main{ height: auto; } .main-in, .main-moin{ font-size: 0.3rem; margin-top: 5rem; margin-left: 12rem; padding:0 1rem 0 1rem; border: 0.1rem solid #FFFFFF; } .main-moin{ float: left; width: 10rem; margin-left: 2rem; margin-top: 5rem; }
 }
 
 @media only screen and (max-width: 30em){
@@ -171,13 +171,13 @@ a {
 }
 
 @media only screen and (min-width: 30.0625em) and (max-width: 50em){
-	.skills-title{ height: 35rem; margin-top: -3.2rem; } .skills-lang, .skills-idea, .skills-frame, .skills-tech{
+	.skills-title{ height: 32rem; margin-top: -3.2rem; } .skills-lang, .skills-idea, .skills-frame, .skills-tech{
 		margin-top: 3rem; width: 10rem; margin-left: 1rem; font-size: 1.2rem; height: 10rem; margin-bottom: 5rem;
 	}
 }
 
 @media only screen and (max-width: 30em){
-	.skills-title{ height: 32rem; margin-top: -4.3rem; } .skills-word{ margin-bottom: 3rem; } .skills-lang, .skills-idea, .skills-frame, .skills-tech { font-size: 1rem; width: 5rem; margin-left: 0.5rem; margin-top: 0;}
+	.skills-title{ height: 32rem; margin-top: -4.3rem; } .skills-word{ margin-bottom: 3rem; } .skills-lang, .skills-idea, .skills-frame, .skills-tech { font-size: 1rem; width: 5rem; margin-left: 0.5rem; margin-top: 0; line-height: 0.5rem; }
 }
 /*项目经验*/
 .pro-main{
@@ -210,7 +210,7 @@ a {
 }
 
 @media only screen and (min-width: 30.0625em) and (max-width: 50em){
-	.pro-left, .pro-right{ margin-left: 9rem; margin-top: 1rem; padding-left: 0.5rem; padding-right: 0.5rem; border: 0.1rem solid #FFFFFF; }
+	.pro-left, .pro-right{ width: 8rem; margin-left: 2rem; margin-top: 1rem; padding-left: 0.5rem; padding-right: 0.5rem; border: 0.1rem solid #FFFFFF; }
 }
 
 @media only screen and (max-width: 30em){
@@ -259,8 +259,8 @@ a {
 }
 
 @media only screen and (min-width: 30.0625em) and (max-width: 50em){
-	.footer p{ font-size: 1rem; margin-left: 4rem; margin-top: 1rem; padding-left: 0.5rem; padding-right: 0.5rem; }
-	#wechat, #QQ{ margin-top: 8rem; margin-left: -6.5rem; } #Email{ margin-top: 8rem; margin-left: -10rem; }
+	.footer p{ font-size: 1rem; margin: 1rem 0 0 10rem; padding:0 0.5rem 0 0.5rem; }
+	#wechat, #QQ{ margin-top: 8rem; margin-left: -7rem; }
 }
 
 @media only screen and (max-width: 30em){
