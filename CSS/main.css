@@ -40,37 +40,26 @@ a {
 	position: fixed;
 	z-index: 1;
 }
-
-#nav-name{
+.nav a {
 	color: #F4F4EC;
 	margin-top: 0.6rem;
-	margin-left: 6rem;
+	margin-left: 10rem;
 	display: inline-block;
 	float: left;
 }
-.nav-more{
-	margin-top: 0.6rem;
-	margin-right: 6rem;
-	float: right;
-}
-.nav-more a{
-	color: #F4F4EC;
-	margin-left: 1rem;
-	position: relative;
-	list-style: none;
-}
 
 @media only screen and (max-width: 50em){
-
+	.nav a{margin-left: 5rem;}
 }
 
 @media only screen and (min-width: 30.0625em) and (max-width: 50em){
-
+	.nav a{ margin-left: 5rem; }
 }
 
 @media only screen and (max-width: 30em){
-	#nav-name{ font-size:0.5rem; float: left; margin-left: 1rem; } .nav-more{ float: left; } .nav-more a{ float: left; margin-top: 0; margin-left: 1rem; font-size: 0.5rem; text-align: center; }
+	.nav a{ margin-left: 2rem; font-size: 0.5rem; }
 }
+
 /*头图*/
 .first-page{
 	background-color: #FF5200;
@@ -121,15 +110,12 @@ a {
 	margin-top: 8rem;
 	text-align: center;
 }
-.main-in{
-	margin-left: 9rem;
+.main-in, .main-moin{
+	margin-left: 10rem;
 	margin-top: 10rem;
+	padding: 0 0.5rem 0 0.5rem;
 	float: left;
-}
-.main-moin{
-	margin-top: 10rem;
-	margin-left: 15%;
-	float: left;
+	border: 0.1rem solid #FFFFFF;
 	margin-bottom: 13rem;
 }
 
@@ -164,7 +150,7 @@ a {
 }
 .skills-lang, .skills-idea, .skills-frame, .skills-tech {
 	display: inline-block;
-    height: 11rem;
+    height: auto;
     width: 12rem;
     border: 0.1rem solid #FFFFFF;
     font-size: 1.3rem;
@@ -210,11 +196,13 @@ a {
 	font-size: 1rem;
 	color: #E7F0D2;
 	margin-top: 4rem;
-	margin-left: 11%;
-	margin-bottom: 4rem;
-	width: 10rem;
+	margin-left: 4rem;
+	margin-bottom: 9rem;
+	padding: 0 0.5rem 0 0.5rem;
+	width: 15rem;
 	height: auto;
 	float: left;
+	border: 0.1rem solid #FFFFFF;
 }
 
 @media only screen and (max-width: 50em){
