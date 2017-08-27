@@ -61,5 +61,11 @@ jQuery(document).ready(function($) {
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
     GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
 
+    $(".fa-envelope").click(function() {
+        alert("我的邮箱：1833856256@qq.com");
+    });
 
+    $(".fa-weixin").click(function(){
+        alert("我的微信：G6-Power");
+    });
 });
