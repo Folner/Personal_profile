@@ -68,4 +68,9 @@ jQuery(document).ready(function($) {
     $(".fa-weixin").click(function(){
         alert("我的微信：G6-Power");
     });
+
+    $(".btn-cta-primary").click(function(){
+        alert("我的手机号码：13631487166");
+    });
+    
 });
